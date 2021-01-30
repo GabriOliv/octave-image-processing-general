@@ -13,9 +13,12 @@ function B = equali_img_save( A, n1, n2)
 %    >> A = imread("002.jpg");
 %    >> equali_img_save(A);
 
+  [m,n,o] = size(A);
+  
+  if(o > 1)
+    A = rgb2gray(A);
+  endif
 
-
-  A = rgb2gray(A);
   %Tamanho da Imagem
   [m,n] = size(A);
   %Numero de Pixels
