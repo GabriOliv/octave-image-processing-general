@@ -1,8 +1,10 @@
-# octave-image-processing-general
+# [Octave Scripts (Image Processing)](https://github.com/GabriOliv/octave-image-processing-general)
+
+Simple Scripts for Image Processing compatible with GNU Octave.
 
 ---
 
-#### Test Images: 
+#### Test Images:
 
 | File Name | Source | Title | Owner| 
 | ------ | ------ | ------ | ------ |
@@ -10,17 +12,18 @@
 
 ---
 
-### Usando os Scripts:
+### How to Run:
 
-* Unzip os scripts
-* Selecione a pasta no ambiente de trabalho do [Octave](https://www.gnu.org/software/octave/index)
-* Chame no Terminal como no Exemplo
+* Unzip the scripts
+* Open [Octave](https://www.gnu.org/software/octave/index)
+  * Select the folder inside "Folder Browser"
+  * Call Scripts in "Command Window"
 
-Exemplo 01:
+Example 01:
 ```matlab
 >> equali_img_save(imread('001_img.jpg'));
 ```
-Exemplo 02:
+Example 02:
 ```matlab
 >> A = imread('001_img.jpg');
 >> equali_img_save(A);
