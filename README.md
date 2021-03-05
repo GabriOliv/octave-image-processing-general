@@ -4,6 +4,12 @@ Simple Scripts for Image Processing compatible with GNU Octave.
 
 ---
 
+[![GNU Octave](https://img.shields.io/badge/GNU%20Octave-5.2.0-blue)](https://www.gnu.org/software/octave/index)
+[![Language Status](https://img.shields.io/badge/Language-pt--BR-success)](https://github.com/GabriOliv/octave-image-processing-general/blob/main/pt_br/README.md)
+[![Language Status](https://img.shields.io/badge/Language-en-success)](https://github.com/GabriOliv/octave-image-processing-general/blob/main/README.md)
+
+---
+
 #### Test Images:
 
 | File Name | Source | Title | Owner| 
